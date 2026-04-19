@@ -24,4 +24,11 @@ public class TestDemo {
         System.out.println("Test Failed");
         Assert.assertTrue(false);
     }
+	
+	@Test
+	public void testOne()
+	{
+		System.out.println("Test One Passed");
+		Assert.assertTrue(true);
+	}
 }
