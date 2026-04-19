@@ -4,7 +4,7 @@ pipeline {
     stage ('Checkout')
     {
       steps {
-        git branch: 'dev',
+        git branch: 'main',
           url: "https://github.com/manojknitan/Jenkins-ci-cd-multi-branch-parameterized-pipeline.git",
           credentialsId: 'Github-Private-PAT'
       }
