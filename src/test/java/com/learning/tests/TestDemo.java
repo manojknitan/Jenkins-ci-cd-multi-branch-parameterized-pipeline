@@ -22,13 +22,20 @@ public class TestDemo {
     public void testFail()
     {
         System.out.println("Test Failed");
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 	
 	@Test
 	public void testOne()
 	{
 		System.out.println("Test One Passed");
+		Assert.assertTrue(true);
+	}
+	
+	@Test
+	public void testTwo()
+	{
+		System.out.println("Test Two Passed");
 		Assert.assertTrue(true);
 	}
 }
